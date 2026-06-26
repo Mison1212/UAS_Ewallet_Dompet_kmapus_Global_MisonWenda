@@ -323,13 +323,25 @@ Link github backend dan frontend project aplikasi marketplace dan E-Wallet yang 
 - [Backend Ecommerce atau Marketpla](https://github.com/Mison1212/backend_api_marketplace_fashionpapua)
 
 ## Marketplace
-    1. [splash marektplace]<img width="407" height="920" alt="image" src="https://github.com/user-attachments/assets/370fd7ca-9065-48f8-8c07-10aa46d860e0" />
-    2. [Login marketplace]<img width="407" height="922" alt="image" src="https://github.com/user-attachments/assets/1634a36d-6034-461b-8c75-21b1003feecb" />
-    3. [Dashboard Marketplace]<img width="406" height="918" alt="image" src="https://github.com/user-attachments/assets/33f3bf55-fa2d-4f9d-a293-2af380a793ca" />
-    4. [Detile Produk]<img width="410" height="920" alt="image" src="https://github.com/user-attachments/assets/3f826fc9-f92e-44ef-a1b6-a23738682b1b" />
-    5. [Keranjang Belanja]<img width="407" height="922" alt="image" src="https://github.com/user-attachments/assets/9a379e7a-4b4c-4e35-8522-b4604be08c63" />
-    6. [Checkout]<img width="410" height="922" alt="image" src="https://github.com/user-attachments/assets/12ac182a-52b0-408c-a119-bd00b73b06c8" />
+    1. [SplashScreen Marketplace] ![alt text](assets/images/splash_m.png)
+    2. [Login Marketplace] ![alt text](assets/images/login_m.png)
+    3. [Dashboard Marketplace] ![alt text](assets/images/dashboard_m.png)
+    4. [Detile produk Marketplace] ![alt text](assets/images/detail_m.png)
+    5. [Keranjang Belanja Marketplace] ![alt text](assets/images/keranjang_m.png)
+    6. [Checkout Marketplace] ![alt text](assets/images/checkout_m.png)
 
+## E-Wallet
+    1. [SplashScreen E-Wallet] ![alt text](assets/images/splash_w.png)
+    2. [Daftar akun E-Wallet] ![alt text](assets/images/daftar_akun_w.png)
+    3. [Confir email E-Wallet] ![alt text](assets/images/confir_email_w.png)
+    4. [verify email E-Wallet] ![alt text](assets/images/verify_email_w.png)
+    5. [Login E-Wallet] ![alt text](assets/images/login_w.png)
+    6. [Pembayaran Merchant E-Wallet] ![alt text](assets/images/pembayaran_w.png)
+    7. [Pin Pembayaran E-Wallet] ![alt text](assets/images/pin_pembayaran_w.png)
+    8. [Berhasil Pembayaran E-Wallet] ![alt text](assets/images/berhasil_pembayaran_w.png)
+    9. [Merchant dashboard E-Wallet] ![alt text](assets/images/merchant_w.png)
+    10. [Profil E-Wallet] ![alt text](assets/images/profile_w.png)
+  
     
 
 
