@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "400159375770",
+    "project_id": "e-wallet-7c45c",
+    "storage_bucket": "e-wallet-7c45c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400159375770:android:729234f5539db4042d7a23",
+        "android_client_info": {
+          "package_name": "com.example.dompet_kampus_global"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tFu4lwzZRiLfYjmN9WlEjJJlepISz-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400159375770:android:ec22302b468a7ab12d7a23",
+        "android_client_info": {
+          "package_name": "com.example.e_wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tFu4lwzZRiLfYjmN9WlEjJJlepISz-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400159375770:android:457f12d18f4119fb2d7a23",
+        "android_client_info": {
+          "package_name": "com.wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tFu4lwzZRiLfYjmN9WlEjJJlepISz-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
