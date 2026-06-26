@@ -325,8 +325,8 @@ Link github backend dan frontend project aplikasi marketplace dan E-Wallet yang 
 ## Marketplace
     1. [SplashScreen Marketplace] ![alt text](assets/images/splash_m.png)
     2. [Login Marketplace] ![alt text](assets/images/login_m.png)
-    3. [Dashboard Marketplace] ![alt text](assets/images/dashboard_m.png)
-    4. [Detile produk Marketplace] ![alt text](assets/images/detail_m.png)
+    3. [Dashboard Marketplace] ![alt text](assets/images/dashboad_m.png)
+    4. [Detile produk Marketplace] ![alt text](assets/images/detile_produk_m.png)
     5. [Keranjang Belanja Marketplace] ![alt text](assets/images/keranjang_m.png)
     6. [Checkout Marketplace] ![alt text](assets/images/checkout_m.png)
 
