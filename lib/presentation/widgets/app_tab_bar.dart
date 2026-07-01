@@ -17,14 +17,15 @@ class AppTabBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 64 + MediaQuery.of(context).padding.bottom,
+      height: 70 + MediaQuery.of(context).padding.bottom,
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Colors.white.withValues(alpha: 0.98),
+        border: const Border(top: BorderSide(color: AppColors.line2)),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.06),
-            blurRadius: 20,
-            offset: const Offset(0, -4),
+            color: AppColors.ink.withValues(alpha: 0.08),
+            blurRadius: 24,
+            offset: const Offset(0, -8),
           ),
         ],
       ),
@@ -34,14 +35,13 @@ class AppTabBar extends StatelessWidget {
           children: [
             _TabItem(icon: DkgIcons.home, label: 'Home', tabKey: 'home', active: active, onTap: onTab),
             _TabItem(icon: DkgIcons.history, label: 'Riwayat', tabKey: 'history', active: active, onTap: onTab),
-            // Center scan button
             Expanded(
               child: Center(
                 child: GestureDetector(
                   onTap: onScan,
                   child: Container(
-                    width: 56,
-                    height: 56,
+                    width: 58,
+                    height: 58,
                     decoration: BoxDecoration(
                       gradient: AppColors.primaryGradient,
                       shape: BoxShape.circle,
@@ -88,16 +88,16 @@ class _TabItem extends StatelessWidget {
           children: [
             Icon(
               icon,
-              size: 24,
+              size: 23,
               color: isActive ? AppColors.primary : AppColors.slate400,
             ),
-            const SizedBox(height: 3),
+            const SizedBox(height: 4),
             Text(
               label,
               style: TextStyle(
                 fontFamily: 'PlusJakartaSans',
                 fontSize: 11,
-                fontWeight: isActive ? FontWeight.w700 : FontWeight.w500,
+                fontWeight: isActive ? FontWeight.w800 : FontWeight.w600,
                 color: isActive ? AppColors.primary : AppColors.slate400,
               ),
             ),
