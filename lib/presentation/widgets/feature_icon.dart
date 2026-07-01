@@ -23,7 +23,8 @@ class FeatureIcon extends StatelessWidget {
       height: size,
       decoration: BoxDecoration(
         color: colors[0],
-        borderRadius: BorderRadius.circular(size * 0.29),
+        borderRadius: BorderRadius.circular(size * 0.24),
+        border: Border.all(color: colors[1].withValues(alpha: 0.10)),
       ),
       child: Center(
         child: Icon(icon, color: colors[1], size: iconSize),
