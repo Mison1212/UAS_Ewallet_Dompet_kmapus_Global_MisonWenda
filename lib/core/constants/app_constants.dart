@@ -6,7 +6,7 @@ class AppConstants {
   // Untuk emulator Android: gunakan 10.0.2.2 (alias untuk localhost di host machine)
   // Untuk HP fisik: gunakan IP Wi-Fi komputer host (cek via ipconfig/ifconfig)
   // Untuk produksi: ganti dengan URL publik/hosting
-  static const String baseUrl = 'http://192.168.100.70/backend_ewallet';
+  static const String baseUrl = 'http://192.168.13.2/backend_ewallet';
   static const String apiVersion = '';
   static const int connectTimeout = 30;
   static const int receiveTimeout = 30;
