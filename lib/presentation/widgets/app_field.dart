@@ -80,18 +80,21 @@ class _AppFieldState extends State<AppField> {
         ],
         AnimatedContainer(
           duration: const Duration(milliseconds: 150),
-          height: 54,
+          height: 56,
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(14),
             border: Border.all(
               color: _focused ? AppColors.primary : AppColors.line,
-              width: 1.0,
+              width: _focused ? 1.4 : 1.0,
             ),
             boxShadow: _focused
                 ? [
                     BoxShadow(
-                        color: AppColors.primary.withValues(alpha: 0.1), blurRadius: 0, spreadRadius: 4)
+                      color: AppColors.primary.withValues(alpha: 0.10),
+                      blurRadius: 0,
+                      spreadRadius: 4,
+                    )
                   ]
                 : [],
           ),
@@ -136,6 +139,12 @@ class _AppFieldState extends State<AppField> {
                         color: AppColors.slate300,
                       ),
                       border: InputBorder.none,
+                      enabledBorder: InputBorder.none,
+                      focusedBorder: InputBorder.none,
+                      disabledBorder: InputBorder.none,
+                      errorBorder: InputBorder.none,
+                      focusedErrorBorder: InputBorder.none,
+                      filled: false,
                       isDense: true,
                       counterText: '',
                       contentPadding: EdgeInsets.zero,
