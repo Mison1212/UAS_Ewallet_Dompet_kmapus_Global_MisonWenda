@@ -321,6 +321,8 @@ Link github backend dan frontend project aplikasi marketplace dan E-Wallet yang 
 - [Backend E-Wallet ( Dompet_Kampus_Global )](https://github.com/Mison1212/backend_api_e-wallet)
 - [Frontend Aplikasi Ecommerce atau marketplace](https://github.com/Mison1212/pasar_malam)
 - [Backend Ecommerce atau Marketpla](https://github.com/Mison1212/backend_api_marketplace_fashionpapua)
+  ink Presentasi Youtube:
+- [link Youtube](https://youtu.be/99o_-JvjBwM)
 
 ## Marketplace
 1. [SplashScreen Marketplace] ![alt text](assets/images/splash_m.png)
