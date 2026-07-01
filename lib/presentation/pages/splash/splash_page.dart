@@ -32,36 +32,34 @@ class _SplashPageState extends State<SplashPage> {
       },
       child: Scaffold(
         body: Container(
-          decoration: const BoxDecoration(gradient: AppColors.primaryGradient),
+          decoration: const BoxDecoration(gradient: AppColors.premiumGradient),
           child: SafeArea(
             child: Stack(
               children: [
-                // Decorative circles
                 Positioned(
-                  top: -120,
-                  right: -90,
+                  top: 42,
+                  right: -24,
                   child: Container(
-                    width: 320,
-                    height: 320,
+                    width: 158,
+                    height: 14,
                     decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white.withValues(alpha: 0.08),
+                      color: AppColors.gold.withValues(alpha: 0.9),
+                      borderRadius: BorderRadius.circular(99),
                     ),
                   ),
                 ),
                 Positioned(
-                  bottom: 120,
-                  left: -100,
+                  top: 64,
+                  right: 24,
                   child: Container(
-                    width: 220,
-                    height: 220,
+                    width: 94,
+                    height: 6,
                     decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white.withValues(alpha: 0.07),
+                      color: AppColors.mint.withValues(alpha: 0.75),
+                      borderRadius: BorderRadius.circular(99),
                     ),
                   ),
                 ),
-                // Content
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 28),
                   child: Column(
@@ -76,7 +74,7 @@ class _SplashPageState extends State<SplashPage> {
                           fontSize: 30,
                           fontWeight: FontWeight.w800,
                           color: Colors.white,
-                          letterSpacing: -0.5,
+                          letterSpacing: 0,
                         ),
                       ),
                       const SizedBox(height: 2),
@@ -86,13 +84,13 @@ class _SplashPageState extends State<SplashPage> {
                           fontFamily: 'PlusJakartaSans',
                           fontSize: 18,
                           fontWeight: FontWeight.w700,
-                          color: Colors.white,
+                          color: AppColors.mint,
                           letterSpacing: 3,
                         ),
                       ),
                       const SizedBox(height: 16),
                       const Text(
-                        'Bayar, transfer, dan kelola uang kuliah\ndalam satu aplikasi yang aman.',
+                        'Bayar, transfer, dan kelola uang\ndalam satu aplikasi yang aman.',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'PlusJakartaSans',
