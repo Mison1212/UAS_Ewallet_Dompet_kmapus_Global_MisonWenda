@@ -14,7 +14,7 @@ class AppTheme {
         onPrimary: Colors.white,
         secondary: AppColors.green,
         surface: AppColors.white,
-        background: AppColors.bg,
+        surfaceContainerHighest: AppColors.line2,
         error: AppColors.red,
       ),
       scaffoldBackgroundColor: AppColors.bg,
@@ -39,7 +39,7 @@ class AppTheme {
           foregroundColor: Colors.white,
           minimumSize: const Size(double.infinity, 54),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
+            borderRadius: BorderRadius.circular(14),
           ),
           textStyle: const TextStyle(
             fontFamily: fontFamily,
@@ -54,16 +54,16 @@ class AppTheme {
         fillColor: Colors.white,
         contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 16),
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(14),
-          borderSide: const BorderSide(color: AppColors.line, width: 1.5),
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: AppColors.line, width: 1.2),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(14),
-          borderSide: const BorderSide(color: AppColors.line, width: 1.5),
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: AppColors.line, width: 1.2),
         ),
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(14),
-          borderSide: const BorderSide(color: AppColors.primary, width: 1.5),
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: AppColors.primary, width: 1.4),
         ),
       ),
       dividerColor: AppColors.line2,
