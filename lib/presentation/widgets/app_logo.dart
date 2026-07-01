@@ -6,19 +6,23 @@ class AppLogo extends StatelessWidget {
   final bool light;
   final bool withText;
 
-  const AppLogo({super.key, this.size = 56, this.light = false, this.withText = false});
+  const AppLogo({
+    super.key,
+    this.size = 56,
+    this.light = false,
+    this.withText = false,
+  });
 
   @override
   Widget build(BuildContext context) {
     const fontFamily = 'PlusJakartaSans';
 
-    Widget icon = SizedBox(
+    final icon = SizedBox(
       width: size,
       height: size,
-      child: Icon(
-        Icons.account_balance_wallet_rounded,
-        size: size,
-        color: light ? Colors.white : AppColors.primary,
+      child: Image.asset(
+        'assets/icons/wallet.png',
+        fit: BoxFit.contain,
       ),
     );
 
@@ -40,7 +44,7 @@ class AppLogo extends StatelessWidget {
                 fontSize: size * 0.3,
                 fontWeight: FontWeight.w800,
                 color: light ? Colors.white : AppColors.ink,
-                letterSpacing: -0.3,
+                letterSpacing: 0,
                 height: 1.05,
               ),
             ),
@@ -50,7 +54,7 @@ class AppLogo extends StatelessWidget {
                 fontFamily: fontFamily,
                 fontSize: size * 0.205,
                 fontWeight: FontWeight.w700,
-                color: light ? Colors.white.withValues(alpha: 0.85) : AppColors.primary,
+                color: light ? AppColors.mint : AppColors.primary,
                 letterSpacing: 1.5,
                 height: 1.05,
               ),
